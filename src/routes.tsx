@@ -6,8 +6,8 @@ import Home from "./pages/Home";
 const Routes = () => {
   return (
     <BrowserRouter>
-      <Route component={Home} patch="/" exact />
-      <Route component={CreatePoint} patch="/cadastro" />
+      <Route component={Home} path="/" exact />
+      <Route component={CreatePoint} path="/cadastro" />
     </BrowserRouter>
   );
 };
